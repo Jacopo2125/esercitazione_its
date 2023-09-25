@@ -1,0 +1,13 @@
+<%- include("layouts/header") -%>
+<%- include("layouts/navbar") -%>
+
+<body>
+    <h1>Elimina un annuncio</h1>
+    <form action="/eliminAnnuncio" method="POST">
+      <label for="codiceUnivoco">Codice Univoco:</label>
+      <input type="text" name="codiceUnivoco" required><br>
+      
+      <input type="submit" value="Elimina">
+    </form>
+  </body>
+  <%- include("layouts/footer") -%>
